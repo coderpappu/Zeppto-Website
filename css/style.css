@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  padding: 30px 0px;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+  padding: 0px 25px;
+}
+.menu_logo_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main_menu ul li {
+  list-style: none;
+  padding: 0px 15px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.main_menu ul li a {
+  text-decoration: none;
+  color: #1f4ed8;
+}
+.starts_Btn a {
+  padding: 15px 29px !important;
+  background-color: #1f4ed8;
+  border-radius: 5px;
+  color: #fff !important;
+}
+.starts_Btn :hover {
+  background-color: #081895;
+}
+
+.sales_checkout_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.sales_checkout_left {
+  width: 40%;
+  height: auto;
+  margin-top: 70px;
+}
+.sales_checkout_left h2 {
+  font-size: 55px;
+  font-weight: 300;
+}
+.sales_checkout_left p {
+  font-size: 22px;
+  color: #52596d;
+  margin: 20px 0px;
+}
+.click_btn_checkout {
+  margin-top: 36px;
+}
+.click_btn_checkout a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #52596d;
+}
+.click_btn_checkout span {
+  font-size: 20px;
+  color: #52596d;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.click_btn_checkout .start_btn {
+  padding: 15px 29px !important;
+  background-color: #1f4ed8;
+  border-radius: 5px;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/* partners Section  */
+
+.partners_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px 0px;
+}
+.partner {
+  width: 120px;
+}
+.partner img {
+  width: 100%;
+}
+
+.benifit_section_wrap {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1fb;
+  border-radius: 10px;
+  padding: 80px 80px;
+}
+.express_checkout_txt {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.express_checkout_txt h1 {
+  font-size: 45px;
+  font-weight: 200;
+}
+.customer_benifit {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 0px;
+  justify-content: space-between;
+}
+.customer_video {
+  width: 27%;
+  margin-top: 30px;
+}
+.customer_video video {
+  width: 100%;
+}
+.customer_benigit_details {
+  width: 73%;
+}
+.degital_wal {
+  width: 100%;
+  height: 150px;
+  padding-left: 50px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  transition: 1s;
+  position: relative;
+}
+
+.degital_wal h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.degital_wal:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+}
+.degital_wal::before {
+  position: absolute;
+  content: "";
+  background: #1f4ed8;
+  width: 6px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  border-radius: 5px 0px 0px 5px;
+  opacity: 0;
+  transition: 1s;
+}
+.degital_wal:hover::before {
+  opacity: 1;
+}
+.benifit_txt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.benifit_txt_left {
+  width: 63%;
+}
+
+.details_txt {
+  width: 37%;
+}
+.benifit_txt_left h3 {
+  font-size: 45px;
+  font-weight: 300;
+  color: black;
+}
+.benifit_card {
+  padding: 0px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.benifit_card_single {
+  width: 190px;
+  height: auto;
+  color: #52596d;
+  transition: 1s;
+}
+.benifit_card_single:hover {
+  margin-top: 30px;
+}
+.card_title h4 {
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.card_title p {
+  font-size: 14px;
+}
+
+.one_click_main {
+  width: 90%;
+  background-color: #1f4ed8;
+  height: 250px;
+  border-radius: 0px 20px 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px 10px ; */
+  position: relative;
+  margin-top: 100px;
+}
+.click_title {
+  width: 65%;
+}
+.click_title h1 {
+  font-size: 2.4em;
+  color: #fff;
+  font-weight: 300;
+}
+.action_click {
+  width: 25%;
+}
+.action_click h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+.action_start {
+  padding: 15px 35px !important;
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff !important;
+  border: none;
+  margin-top: 20px;
+}
+.one_click_main::before {
+  position: absolute;
+  content: "";
+  z-index: 6;
+  width: 600px;
+  height: 60px;
+  background-color: #4971eb;
+  top: -24%;
+  left: 0;
+  border-radius: 0px 40px 0px 0px;
+}
+
+.payment_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: auto;
+  margin-top: 80px;
+}
+.payment_card_img {
+  width: 40%;
+  padding: 20px;
+}
+.payment_check_details {
+  width: 50%;
+}
+.payment_card_img img {
+  width: 100%;
+  height: auto;
+}
+.payment_check_details ul li {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+.payment_check_details h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+section.ask_something {
+  background: #ddd;
+}
+
+.ask_title h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.single_question {
+  border-bottom: 1px solid rgb(208 201 201);
+  padding: 40px 0px;
+}
+.user_Question_heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_single_question h2 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #3b3a3a;
+}
+
+.user_Question_details {
+  margin-top: 15px;
+}
+
+.user_Question_details p {
+  font-weight: 300;
+  color: #535151;
+}
+.user_rate_box {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(174, 243, 254, 1) 10%,
+    rgba(215, 224, 243, 1) 100%
+  );
+  text-align: center;
+  padding: 100px;
+  box-sizing: border-box;
+  margin: 97px 0px;
+  border-radius: 30px;
+}
+
+.user_rate_box h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.user_rate_box h1 {
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.user_rate_box h3 {
+  font-size: 27px;
+  margin: 26px 0px;
+}
+
+.user_rate_box h4 {
+  color: #6b6969;
+  font-weight: 400;
+}
